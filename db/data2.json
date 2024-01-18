@@ -1,0 +1,135 @@
+[
+    {
+        "name": "Meja Guru",
+        "category": "Perabotan",
+        "location": "Ruang Guru",
+        "qty": 15,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Meja Murid",
+        "category": "Perabotan",
+        "location": "Kelas",
+        "qty": 24,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Kursi Guru",
+        "category": "Perabotan",
+        "location": "Ruang Guru",
+        "qty": 15,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Kursi Murid",
+        "category": "Perabotan",
+        "location": "Kelas",
+        "qty": 24,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Komputer",
+        "category": "Eletronik",
+        "location": "Lab",
+        "qty": 41,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Laptop",
+        "category": "Eletronik",
+        "location": "Ruang Guru",
+        "qty": 12,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Sapu",
+        "category": "Perawatan",
+        "location": "Lainnya",
+        "qty": 6,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Pengki",
+        "category": "Perawatan",
+        "location": "Lainnya",
+        "qty": 6,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Ranjang Tingkat",
+        "category": "Perabotan",
+        "location": "UKS",
+        "qty": 2,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Printer",
+        "category": "Perkantoran",
+        "location": "Ruang Guru",
+        "qty": 2,
+        "img": "assets/Ellipse.png"
+    },
+    {
+        "name": "Proyektor",
+        "category": "Kelistrikan",
+        "location": "Ruang Guru",
+        "qty": 4,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Bola Futsal",
+        "category": "Olahraga",
+        "location": "Ruang Guru",
+        "qty": 3,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Raket Badminton",
+        "category": "Olahraga",
+        "location": "Ruang Guru",
+        "qty": 6,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Buku Tulis",
+        "category": "Buku dan Materi",
+        "location": "Ruang Guru",
+        "qty": 60,
+        "img": "assets/Ellipse.png"
+    },
+    {
+        "name": "Buku Peminjaman Device",
+        "category": "Buku dan Materi",
+        "location": "Ruang Guru",
+        "qty": 1,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Novel",
+        "category": "Buku dan Materi",
+        "location": "Lainnya",
+        "qty": 150,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Gitar",
+        "category": "Seni",
+        "location": "Ruang Guru",
+        "qty": 2,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Kajon",
+        "category": "Seni",
+        "location": "Ruang Guru",
+        "qty": 1,
+        "img": "../assets/Ellipse.png"
+    },
+    {
+        "name": "Terminal",
+        "category": "Kelistrikan",
+        "location": "Ruang Guru",
+        "qty": 7,
+        "img": "../assets/Ellipse.png"
+    }
+]

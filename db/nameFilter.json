@@ -1,0 +1,45 @@
+{
+    "lokasi": [
+        {
+            "name": "Kelas"
+        },
+        {
+            "name": "Lab"
+        },
+        {
+            "name": "Ruang Guru"
+        },
+        {
+            "name": "UKS"
+        },
+        {
+            "name": "Lainnya"
+        }
+    ],
+    "kategori": [
+        {
+            "name": "Perabotan"
+        },
+        {
+            "name": "Elektronik"
+        },
+        {
+            "name": "Perkantoran"
+        },
+        {
+            "name": "Olahraga"
+        },
+        {
+            "name": "Buku & Materi"
+        },
+        {
+            "name": "Seni"
+        },
+        {
+            "name": "Perawatan"
+        },
+        {
+            "name": "Kelistrikan"
+        }
+    ]
+}

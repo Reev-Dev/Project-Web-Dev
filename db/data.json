@@ -1,0 +1,104 @@
+{
+  "cards": [
+    {
+      "facilities": [
+        {
+          "img": "assets/lab-image.jpg",
+          "title": "Lab Sekolah",
+          "qty": 2
+        },
+        {
+          "img": "assets/lab-image.jpg",
+          "title": "Kelas",
+          "qty": 2
+        },
+        {
+          "img": "assets/lab-image.jpg",
+          "title": "Ruang Guru",
+          "qty": 2
+        },
+        {
+          "img": "assets/lab-image.jpg",
+          "title": "UKS",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "inventory": [
+        {
+          "name": "Meja Kursi Guru",
+          "category": "Perabotan",
+          "location": "Ruang Guru",
+          "qty": 15
+        },
+        {
+          "name": "Meja Kursi Murid",
+          "category": "Perabotan",
+          "location": "Kelas",
+          "qty": 24
+        },
+        {
+          "name": "Komputer",
+          "category": "Eletronik",
+          "location": "Lab",
+          "qty": 41
+        },
+        {
+          "name": "Laptop",
+          "category": "Eletronik",
+          "location": "Ruang Guru",
+          "qty": 12
+        },
+        {
+          "name": "Sapu",
+          "category": "Perawatan",
+          "location": "UKS",
+          "qty": 6
+        },
+        {
+          "name": "Ranjang Tingkat",
+          "category": "Perabotan",
+          "location": "UKS",
+          "qty": 2
+        },
+        {
+          "name": "Printer",
+          "category": "Perkantoran",
+          "location": "Ruang Guru",
+          "qty": 2
+        },
+        {
+          "name": "Proyektor",
+          "category": "Kelistrikan",
+          "location": "Ruang Guru",
+          "qty": 4
+        },
+        {
+          "name": "Raket Badminton",
+          "category": "Olahraga",
+          "location": "Ruang Guru",
+          "qty": 6
+        },
+        {
+          "name": "Buku Peminjaman Device",
+          "category": "Buku dan Materi",
+          "location": "Ruang Guru",
+          "qty": 1
+        },
+        {
+          "name": "Gitar",
+          "category": "Seni",
+          "location": "Ruang Guru",
+          "qty": 2
+        },
+        {
+          "name": "Terminal",
+          "category": "Kelistrikan",
+          "location": "Ruang Guru",
+          "qty": 7
+        }
+      ]
+    }
+  ]
+}
