@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "Phenomena";
+  src: url(./../font/Phenomena/Phenomena-Regular.otf);
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(./../font/DM-Sans/DMSans-Regular.ttf);
+}
+
+:root {
+  --phenomena-font: "Phenomena";
+  --dm-sans-font: "DM Sans", sans-serif;
+  --primary: #333;
+  --secondary: #0057b8;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 15px 300px;
+  background-color: #FFF;
+}
+
+
+
+.navbar .container_nav {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-logo {
+  width: 270px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  width: 397px;
+  font-family: var(--phenomena-font);
+  margin-right: 40px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-item .active {
+  color: var(--secondary);
+}
+
+main {
+  background-image: url(/assets/background-image.jpg);
+  background-size: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  padding-top: 100px;
+}
+
+.hero-section {
+  display: flex;
+  margin: 0 230px;
+  height: 750px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  font-family: var(--phenomena-font);
+  color: #fff;
+  text-align: center;
+  font-size: 96px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.hero-content h4 {
+  font-family: var(--phenomena-font);
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.hero-content h6 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--dm-sans-font);
+  font-size: 40px;
+  font-weight: 400;
+  margin: auto;
+}
+
+.info-school {
+  display: inline-flex;
+  padding: 63px 0px 62px 30px;
+  margin: 0 230px;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  gap: 66px;
+}
+
+.title {
+  font-family: var(--phenomena-font);
+  display: flex;
+  flex-shrink: 0;
+  width: 477px;
+  padding: 26px 0px 190px 0px;
+  justify-content: center;
+  align-items: center;
+  color: #00a807;
+  text-align: center;
+  font-weight: 700;
+}
+
+.title h1 {
+  font-size: 64px;
+}
+
+.title-description p {
+  font-family: var(--dm-sans-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.jumbotron {
+  background-color: var(--secondary);
+}
+
+.jumbo-content {
+  margin: 0 230px;
+  font-family: var(--phenomena-font);
+}
+
+.jumbo-title {
+  padding: 19px 61px 18px 61px;
+}
+
+.jumbo-title h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbo-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postcard {
+  display: grid;
+  width: 180px;
+  border-radius: 25px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 15px;
+  justify-content: center;
+}
+
+.postcard img {
+  border-radius: 50%;
+  width: 102px;
+  justify-content: center;
+}
+
+.postcard h4 {
+  margin: 12px 0 0 0;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.postcard h5 {
+  margin: 0 0 15px 0;
+  color: var(--secondary);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-card {
+  display: flex;
+  padding: 2px 26px;
+  border-radius: 15px;
+  background: var(--secondary);
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.info-card h6 {
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.jumbo-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbo-btn {
+  display: inline-flex;
+  margin: 42px 0;
+  height: 52px;
+  padding: 0 24px;
+  background: #fff;
+  border-radius: 45px;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.jumbo-btn h4 {
+  margin: 0 0;
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+.jumbo-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer {
+  display: grid;
+  background: var(--primary);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  padding: 29px 30px 110px 30px;
+}
+
+.footer-logo img {
+  width: 270px;
+  background: #FFF;
+}
+
+.footer-content h3 {
+  margin: 0;
+  font-family: var(--phenomena-font);
+  font-size: 26px;
+  color: #FFF;
+
+}
+
+.footer-content h5 {
+  margin: 0;
+  font-family: var(--dm-sans-font);
+  color: #FFF;
+
+}
+
+.footer-content p {
+  margin: 0;
+  font-family: var(--dm-sans-font);
+  color: #FFF;
+  font-size: 14px;
+}
+
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  gap: 17px;
+  padding-right: 30px;
+
+}
+
+.footer-location h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-right: 30px;
+}
+
+.footer-email p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-telephone {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-right: 30px;
+}
+
+.footer-telephone h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-wm {
+  display: flex;
+  font-family: var(--dm-sans-font);
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
