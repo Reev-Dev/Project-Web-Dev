@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Inventaris</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand">
+    <div class="container">
+      <div>
+        <a href="index.html">
+          <img class="main-logo" src="assets/project-logo 1.png" alt="logo" />
+        </a>
+      </div>
+      <div class="item">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="inventaris.html">Inventaris</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang.html">Tentang</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+
+    <div class="section-hero my-4">
+        <div class="container" style="padding-left: 8px;">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                    aria-describedby="button-addon2" id="text_user">
+                <button class="btn btn-outline-info d-flex" type="button" id="button-addon2"
+                    onclick="search()">Search</button>
+            </div>
+        </div>
+        <div class="container mt-3 g-3">
+            <div class="row g-3" id="rowBox">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-section ">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo-footer.png" alt="">
+                </div>
+                <div class="footer-location">
+                    <h3>Lokasi</h3>
+                    <h5>Jl. Raya Cikampak Cicadas RT. 001/RW 001. Kecamatan Ciampea, Kabupaten Bogor. Jawa Barat 16620
+                    </h5>
+                </div>
+                <div class="footer-email">
+                    <h3>Email</h3>
+                    <p>inventory@smktibazma.sch.id</p>
+                </div>
+                <div class="footer-telephone">
+                    <h3>NoTelepon</h3>
+                    <h5>08 1111 4433 9</h5>
+                </div>
+            </div>
+            <div class="footer-wm">
+                <p>© Copyright 2023 | All Rights Reserved by Bazma School Inventory</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <script src="js/script2.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function search() {
+            const text_input = document.getElementById('text_user').value
+            window.open(`/search.html?query=${text_input}`, '_self')
+        }
+    </script>
+</body>
+
+</html>
