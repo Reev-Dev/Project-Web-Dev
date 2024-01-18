@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Phenomena";
+  src: url(./../font/Phenomena/Phenomena-Regular.otf);
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(./../font/DM-Sans/DMSans-Regular.ttf);
+}
+
+:root {
+  --phenomena-font: "Phenomena";
+  --dm-sans-font: "DM Sans", sans-serif;
+  --primary: #333;
+  --secondary: #0057b8;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 15px 300px;
+  background-color: #FFF;
+}
+
+
+
+.navbar .container_nav {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-logo {
+  width: 270px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  width: 397px;
+  font-family: var(--phenomena-font);
+  margin-right: 40px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-item .active {
+  color: var(--secondary);
+}
+
+main {
+  background-image: url(/assets/background-image.jpg);
+  background-size: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  height: 210px;
+  margin-top: -100px;
+}
+
+.hero-section {
+  display: grid;
+  margin: 0 230px;
+  padding: 100px;
+  height: 750px;
+  align-items: start;
+  justify-content: center;
+}
+
+.hero-content {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h4 {
+  font-family: var(--phenomena-font);
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.table {
+  font-family: var(--phenomena-font);
+  margin-bottom: 30px;
+}
+
+.table-item {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+
+.table-left {
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.table-item img {
+  margin: 10px;
+  width: 230px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.table-left .title-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: start;
+  justify-content: start;
+}
+
+.item-name h1 {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.item-amount h3 {
+  margin: 0;
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+.inventory-section {
+  display: flex;
+  justify-content: end;
+}
+
+.inventory {
+  margin: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 18px 13px 18px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-inventory h4 {
+  color: var(--secondary);
+  margin: 0;
+  font-size: 32px;
+  text-align: start;
+}
+
+.list-inventory {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.list-column h6 {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.footer {
+  display: grid;
+  background: var(--primary);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  padding: 29px 30px 110px 30px;
+}
+
+.footer-logo img {
+  width: 270px;
+  background: #FFF;
+}
+
+.footer-content h3 {
+  margin: 0;
+  font-family: var(--phenomena-font);
+  font-size: 26px;
+  color: #FFF;
+
+}
+
+.footer-content h5 {
+  margin: 0;
+  font-family: var(--dm-sans-font);
+  color: #FFF;
+
+}
+
+.footer-content p {
+  margin: 0;
+  font-family: var(--dm-sans-font);
+  color: #FFF;
+  font-size: 14px;
+}
+
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  gap: 17px;
+  padding-right: 30px;
+
+}
+
+.footer-location h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-right: 30px;
+}
+
+.footer-email p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-telephone {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding-right: 30px;
+}
+
+.footer-telephone h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-wm {
+  display: flex;
+  font-family: var(--dm-sans-font);
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
