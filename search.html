@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK TI BAZMA Inventaris Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand">
+    <div class="container">
+      <div>
+        <a href="index.html">
+          <img class="main-logo" src="assets/project-logo 1.png" alt="logo" />
+        </a>
+      </div>
+      <div class="item">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="inventaris.html">Inventaris</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang.html">Tentang</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+    <div class="section-hero my-4">
+        <div class="container" style="padding-left: 8px;">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                    aria-describedby="button-addon2" id="text_user">
+                <button class="btn btn-outline-info d-flex" type="button" id="button-addon2"
+                    onclick="search()">Search</button>
+            </div>
+        </div>
+        <div class="container mt-3 g-3">
+            <div class="row g-3" id="rowBox">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3 g-3">
+        <div class="row g-3" id="rowBox">
+        </div>
+    </div>
+
+    <div class="container text-center" style="display: none;" id="container-not-found">
+        <h1>404</h1>
+        <p>not found</p>
+    </div>
+
+    <script src="js/cardSearch.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function search() {
+            const text_input = document.getElementById('text_user').value
+            window.open(`/search.html?query=${text_input}`, '_self')
+        }
+    </script>
+</body>
+
+</html>
